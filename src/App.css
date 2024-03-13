@@ -1,38 +1,1409 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div > div {
   display: flex;
   flex-direction: column;
+  width: 15rem;
+  margin-left: 2rem;
+}
+
+.test {
+  padding: 100px;
+}
+
+.dropdown {
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.option {
+  margin-left: 10px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+select {
+  padding: 15px;
+  border-radius: 3px;
+  padding-right: 30px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='24' height='24' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='black'/></g></svg>")
+    no-repeat;
+  background-position: right 5px top 50%;
+}
+
+/* ************************* */
+
+/* Group 3566 */
+
+h3 {
+  position: absolute;
+  width: 502px;
+  height: 820px;
+  left: 469px;
+  top: 102px;
+
+  /*
+  /* Group 3550 */
+
+  position: absolute;
+  width: 502px;
+  height: 729px;
+  left: 469px;
+  top: 102px;
+
+  /* Frame 811451 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 502px;
+  height: 30px;
+  left: 469px;
+  top: 102px;
+
+  /* Frame 811481 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 184px;
+  height: 30px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Create User Account */
+
+  width: 184px;
+  height: 30px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  display: flex;
+  align-items: center;
+
+  /* Text */
+  color: #2c3642;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Group 3454 */
+
+  position: absolute;
+  width: 502px;
+  height: 684px;
+  left: 469px;
+  top: 147px;
+
+  /* Frame 2589 */
+
+  position: absolute;
+  width: 502px;
+  height: 684px;
+  left: 469px;
+  top: 147px;
+
+  /* White */
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+
+  /* radio */
+
+  position: absolute;
+  width: 89px;
+  height: 24px;
+  left: 42.07px;
+  top: 667.66px;
+
+  /* Frame 811702 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 422px;
+  height: 604px;
+  left: 509px;
+  top: 187px;
+
+  /* Frame 3621 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 422px;
+  height: 83px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* ✏️ Input text */
+
+  width: 380px;
+  height: 23px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.15px;
+
+  /* Grey 7 */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* .base/input-root */
+
+  box-sizing: border-box;
+
+  width: 422px;
+  height: 50px;
+
+  /* outline */
+  border: 1px solid #a5b6cd;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  /* .base/Label-text */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  left: 14.5px;
+  top: calc(50% - 27px / 2);
+  overflow-x: scroll;
+
+  /* $label */
+
+  width: 83px;
+  height: 27px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.02em;
+
+  /* Text 2 */
+  color: #4d5c6f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $required */
+
+  width: 7px;
+  height: 19px;
+
+  /* Input/Label */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height, or 119% */
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Frame 3622 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 422px;
+  height: 87px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* ✏️ Input text */
+
+  width: 380px;
+  height: 23px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.15px;
+
+  /* Grey 7 */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Text Field */
+
+  width: 422px;
+  height: 54px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* .base/input-root */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  height: 50px;
+  left: 0px;
+  right: 0px;
+  top: 4px;
+
+  border: 1px solid #a5b6cd;
+  border-radius: 4px;
+
+  /* .base/Label-text */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+
+  position: absolute;
+  width: 108px;
+  height: 24px;
+  left: 14.5px;
+  top: calc(50% - 24px / 2);
+  overflow-x: scroll;
+
+  /* $label */
+
+  width: 108px;
+  height: 24px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.02em;
+
+  /* Text */
+  color: #2c3642;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* .base/label */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 4px;
+  gap: 10px;
+
+  position: absolute;
+  width: 107px;
+  height: 2px;
+  left: 11px;
+  top: 4px;
+
+  background: #ffffff;
+
+  /* Frame 3514 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  width: 99px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $label */
+
+  width: 91px;
+  height: 18px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+  letter-spacing: 0.02em;
+
+  /* Text 2 */
+  color: #4d5c6f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $required */
+
+  width: 6px;
+  height: 18px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Frame 3623 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 422px;
+  height: 83px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  /* ✏️ Input text */
+
+  width: 380px;
+  height: 23px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.15px;
+
+  /* Grey 7 */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Group 3620 */
+
+  width: 422px;
+  height: 50px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Frame 3621 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 11px;
+
+  position: absolute;
+  width: 422px;
+  height: 50px;
+  left: 0px;
+  top: 33px;
+
+  /* Dropdown !! */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: flex-start;
+  padding: 7px 16px;
+  gap: 10px;
 
-.App-link {
-  color: #61dafb;
-}
+  margin: 0 auto;
+  width: 124px;
+  height: 50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* outline */
+  border: 1px solid #a5b6cd;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Frame 3428 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 92px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  /* Frame 3521 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  margin: 0 auto;
+  width: 42px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Dropdown Button */
+
+  width: 33px;
+  height: 27px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.02em;
+
+  /* Text 2 */
+  color: #4d5c6f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $required */
+
+  width: 7px;
+  height: 19px;
+
+  /* Input/Label */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height, or 119% */
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* chevron-down */
+
+  margin: 0 auto;
+  width: 18px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Vector */
+
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 37.5%;
+  bottom: 37.5%;
+
+  /* text */
+  border: 1.33333px solid #293343;
+
+  /* Dropdown !! */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 7px 16px;
+  gap: 10px;
+
+  margin: 0 auto;
+  width: 124px;
+  height: 50px;
+
+  /* outline */
+  border: 1px solid #a5b6cd;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Frame 3428 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 92px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  /* Frame 3521 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  margin: 0 auto;
+  width: 64px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Dropdown Button */
+
+  width: 55px;
+  height: 27px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.02em;
+
+  /* Text 2 */
+  color: #4d5c6f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $required */
+
+  width: 7px;
+  height: 19px;
+
+  /* Input/Label */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height, or 119% */
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* chevron-down */
+
+  margin: 0 auto;
+  width: 18px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Vector */
+
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 37.5%;
+  bottom: 37.5%;
+
+  /* text */
+  border: 1.33333px solid #293343;
+
+  /* Dropdown !! */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 7px 16px;
+  gap: 10px;
+
+  margin: 0 auto;
+  width: 124px;
+  height: 50px;
+
+  /* outline */
+  border: 1px solid #a5b6cd;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  /* Frame 3428 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 92px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  /* Frame 3521 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  margin: 0 auto;
+  width: 45px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Dropdown Button */
+
+  width: 36px;
+  height: 27px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.02em;
+
+  /* Text 2 */
+  color: #4d5c6f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $required */
+
+  width: 7px;
+  height: 19px;
+
+  /* Input/Label */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height, or 119% */
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* chevron-down */
+
+  margin: 0 auto;
+  width: 18px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Vector */
+
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 37.5%;
+  bottom: 37.5%;
+
+  /* text */
+  border: 1.33333px solid #293343;
+
+  /* Frame 3624 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 422px;
+  height: 105px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+
+  /* ✏️ Input text */
+
+  width: 380px;
+  height: 23px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.15px;
+
+  /* Grey 7 */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Frame 811701 */
+
+  width: 422px;
+  height: 72px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Text Field */
+
+  position: absolute;
+  width: 422px;
+  height: 54px;
+  left: 0px;
+  top: 0px;
+
+  /* .base/input-root */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  height: 50px;
+  left: 0px;
+  right: 0px;
+  top: 4px;
+
+  border: 1px solid #cf4055;
+  border-radius: 4px;
+
+  /* .base/Label-text */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+
+  position: absolute;
+  width: 173px;
+  height: 24px;
+  left: 14.5px;
+  top: calc(50% - 24px / 2);
+  overflow-x: scroll;
+
+  /* $label */
+
+  width: 173px;
+  height: 24px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.02em;
+
+  /* Text */
+  color: #2c3642;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* .base/label */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 4px;
+  gap: 10px;
+
+  position: absolute;
+  width: 93px;
+  height: 2px;
+  left: 11px;
+  top: 4px;
+
+  background: #ffffff;
+
+  /* Frame 3514 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  width: 85px;
+  height: 18px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $label */
+
+  width: 77px;
+  height: 18px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+  letter-spacing: 0.02em;
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $required */
+
+  width: 6px;
+  height: 18px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Error message */
+
+  position: absolute;
+  height: 16px;
+  left: 0px;
+  right: 131px;
+  top: 56px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* support / support-01 */
+  color: #da1e28;
+
+  /* Frame 3625 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 422px;
+  height: 83px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+
+  /* ✏️ Input text */
+
+  width: 380px;
+  height: 23px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.15px;
+
+  /* Grey 7 */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* .base/input-root */
+
+  box-sizing: border-box;
+
+  width: 422px;
+  height: 50px;
+
+  /* outline */
+  border: 1px solid #a5b6cd;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  /* .base/Label-text */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+
+  position: absolute;
+  width: 147px;
+  height: 27px;
+  left: 14.5px;
+  top: calc(50% - 27px / 2);
+  overflow-x: scroll;
+
+  /* $label */
+
+  width: 138px;
+  height: 27px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.02em;
+
+  /* Text 2 */
+  color: #4d5c6f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $required */
+
+  width: 7px;
+  height: 19px;
+
+  /* Input/Label */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height, or 119% */
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Frame 3626 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 422px;
+  height: 83px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+
+  /* ✏️ Input text */
+
+  width: 380px;
+  height: 23px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.15px;
+
+  /* Grey 7 */
+  color: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* .base/input-root */
+
+  box-sizing: border-box;
+
+  width: 422px;
+  height: 50px;
+
+  /* outline */
+  border: 1px solid #a5b6cd;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  /* .base/Label-text */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+
+  position: absolute;
+  width: 158px;
+  height: 27px;
+  left: 14.5px;
+  top: calc(50% - 27px / 2);
+  overflow-x: scroll;
+
+  /* $label */
+
+  width: 149px;
+  height: 27px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: 0.02em;
+
+  /* Text 2 */
+  color: #4d5c6f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* $required */
+
+  width: 7px;
+  height: 19px;
+
+  /* Input/Label */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height, or 119% */
+
+  color: #cf4055;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Frame 811695 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  position: absolute;
+  width: 305px;
+  height: 46px;
+  left: 554px;
+  top: 876px;
+
+  /* button */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
+
+  width: 145px;
+  height: 46px;
+
+  /* Teal */
+  border: 1px solid #4790a1;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Add to cart */
+
+  width: 49px;
+  height: 20px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+
+  /* Teal */
+  color: #4790a1;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 34px;
+  gap: 10px;
+
+  width: 145px;
+  height: 46px;
+
+  background: #127c95;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Add to cart */
+
+  width: 52px;
+  height: 20px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+
+  /* Grey 1 */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
